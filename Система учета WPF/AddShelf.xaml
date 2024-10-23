@@ -1,0 +1,21 @@
+﻿<Window x:Class="Система_учета_WPF.AddShelf"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Система_учета_WPF"
+        mc:Ignorable="d"
+        Title="AddShelf" Height="450" Width="800">
+    <Grid>
+        <TextBlock Margin="31,102,500,312" Background="#FFD0D0D0"/>
+        <TextBlock Margin="31,161,500,253" Background="#FFD0D0D0"/>
+        <TextBlock Margin="31,232,500,182" Background="#FFD0D0D0"/>
+        <TextBlock Margin="31,294,500,120" Background="#FFD0D0D0"/>
+        <Label Content="Название стелажа" Width="100" Margin="31,58,669,349"/>
+        <Label Content="Имя сотрудника" Width="100" Margin="31,129,669,278"/>
+        <Label Content="Макс исп" Width="100" Margin="31,199,669,208"/>
+        <Label Content="Уже исп" Width="100" Margin="31,262,669,145"/>
+
+
+    </Grid>
+</Window>
